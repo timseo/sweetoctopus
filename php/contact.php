@@ -16,20 +16,20 @@ $comments = $_POST['comments'];
 
 
 if(trim($name) == '') {
-	echo '<div class="error_message">Attention! You must enter your name.</div>';
+	echo '<div class="error_message">Please enter your name.</div>';
 	exit();
 } else if(trim($email) == '') {
-	echo '<div class="error_message">Attention! Please enter a valid email address.</div>';
+	echo '<div class="error_message">Please enter a valid email address.</div>';
 	exit();
 } else if(trim($phone) == '') {
-	echo '<div class="error_message">Attention! Please enter a valid phone number.</div>';
+	echo '<div class="error_message">Please enter a valid phone number.</div>';
 	exit();
 
 } else if(!isEmail($email)) {
-	echo '<div class="error_message">Attention! You have entered an invalid e-mail address, try again.</div>';
+	echo '<div class="error_message">Please enter a valid e-mail address, try again.</div>';
 	exit();
 } else if(trim($comments) == '') {
-	echo '<div class="error_message">Attention! Please type your message.</div>';
+	echo '<div class="error_message">Please type your message.</div>';
 	exit();
 }
 
