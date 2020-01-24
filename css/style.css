@@ -92,6 +92,10 @@ p {
 	color:#7a8a88;
 	text-transform: capitalize;
 }
+.specials {
+	text-align: center;
+	color: black;
+}
 .advisory {
 	font-size: 12px;
 	color:#7a8a88;
@@ -1103,6 +1107,16 @@ article {
 	padding-bottom: 20px;
 	font-family: 'Teko', sans-serif;
 	color: #4f5252;
+}
+.specials-title {
+	text-transform: uppercase;
+	/* font-weight: bold; */
+	font-size: 38px;
+	letter-spacing: 2px;
+	font-family: 'Teko', sans-serif;
+	color:#fcb040;
+	padding-top: 45px;
+
 }
 .big-number {
 	margin:50px auto 0;
