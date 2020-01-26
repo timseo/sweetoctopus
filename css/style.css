@@ -81,8 +81,9 @@ h5 {
 	font-weight: 200;
 }
 h6 {
-	font-size: 0.6em;
+	font-size: 2.6em;
 	font-weight: 200;
+	text-transform: capitalize;
 }
 p {
 	text-align:left;
@@ -116,7 +117,7 @@ blockquote p {
 .loader {
 	position:fixed;
 	top:50% !important;
-	left:50%;
+	left:49% !important;
 	width:50px;
 	height:50px;
 	margin-left:-25px;
@@ -249,6 +250,14 @@ blockquote p {
 	width:100%;
 	height:auto;
 }
+@media only screen and  (max-width: 756px) {
+	.respimg {
+		width:65%;
+		height:auto;
+	}
+
+}
+
 .hp-logo {
 	width:45%;
 	height:auto;
@@ -391,7 +400,7 @@ section.header-section {
 	background:#fff;
 }
 .align-text {
-	text-align:left;
+	text-align:center;
 }
 .img-wrap {
 	position:absolute;
@@ -1586,6 +1595,12 @@ article {
 }
 .nextposts-link{
 	margin-left:8px;
+}
+.product-item-holder-cc {
+	float:left;
+	width:100%;
+	position:relative;
+	padding:50px 0;
 }
 .product-item-holder {
 	float:left;
