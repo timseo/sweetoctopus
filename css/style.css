@@ -201,6 +201,32 @@ blockquote p {
 
 }
 /* ---------Content Styles--------------------------------------*/
+
+.notification-bottom {
+
+	background-color: #fcb040;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+	z-index: 1000;
+	padding-top: 17px;
+	padding-bottom: 10px;
+	display: inline-block;
+  /* Rest of your styling */
+}
+.notification-text {
+	text-align: center;
+	color: black;
+}
+
+.notification-close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  /* This are approximated values, and the rest of your styling goes here */
+}
+
 #main{
 	height:100%;
 	width:100%;
