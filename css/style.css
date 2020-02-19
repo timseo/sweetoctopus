@@ -293,6 +293,14 @@ img.hp-uber {
 	height:auto;
 }
 
+@media only screen and  (max-width: 756px) {
+	img.hp-uber {
+		width:55%;
+		height:auto;
+	}
+
+}
+
 .img-hover-zoom--quick-zoom img {
   transform-origin: 0 0;
   transition: transform .25s, visibility .25s ease-in;
