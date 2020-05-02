@@ -88,7 +88,7 @@ h6 {
 p {
 	text-align:left;
 	font-size:16px;
-	line-height:24px;
+	line-height:16px;
 	padding-bottom:10px;
 	color:#7a8a88;
 	text-transform: capitalize;
@@ -217,7 +217,8 @@ blockquote p {
 }
 .notification-text {
 	text-align: center;
-	color: black;
+	font-size: 12px;
+	text-transform: uppercase;
 }
 
 .notification-close {
@@ -607,7 +608,7 @@ nav li{
 }
 nav li a {
 	float: left;
-	line-height: 1;
+	line-height: 1.25;
 	font-size: 15px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -616,6 +617,7 @@ nav li a {
 	text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.65);
 	top:0;
 	position:relative;
+	text-align: left;
 	font-family: 'Dosis', sans-serif;
 	-webkit-transition: all 100ms linear;
     -moz-transition: all 100ms linear;
@@ -1339,7 +1341,7 @@ article {
 	display: table-cell;
 	white-space: nowrap;
 	width: 10%;
-	line-height:15px;
+	line-height:40px;
 	text-align:left;
 	text-transform: capitalize;
 	color: #4f5252;
