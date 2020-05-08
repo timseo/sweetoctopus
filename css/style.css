@@ -88,7 +88,7 @@ h6 {
 p {
 	text-align:left;
 	font-size:16px;
-	line-height:16px;
+	line-height:20px;
 	padding-bottom:10px;
 	color:#7a8a88;
 	text-transform: capitalize;
@@ -112,6 +112,9 @@ blockquote p {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-style:italic;
 	color:#494949;
+}
+strong {
+	color: black;
 }
 /* ---------Page preload--------------------------------------*/
 .loader {
@@ -3125,4 +3128,9 @@ nav li:hover > ul {
 	-webkit-background-size:cover;
 	background-position:center;
 }
+}
+.gf-logo {
+	width: 14px;
+	margin-bottom: 12px;
+	margin-right: 4px;
 }
