@@ -329,6 +329,25 @@ img.hp-uber {
 	/* opacity:0.2; */
 	z-index:2;
 }
+.cc-size {
+	font-size: 12px;
+}
+p.cc-boba {
+    line-height: 12px;
+}
+.cc-toppings {
+	font-size: 15px;
+	padding-top: 20px;
+	text-transform: capitalize;
+	padding-bottom: 15px;
+}
+.cc-toppings-detail {
+	font-size: 17px;
+	text-transform: capitalize;
+	text-align: center;
+	line-height: 18px;
+
+}
 /* --------- Section's--------------------------------------*/
 section {
 	float:left;
