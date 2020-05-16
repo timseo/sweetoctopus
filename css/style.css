@@ -336,16 +336,20 @@ p.cc-boba {
     line-height: 12px;
 }
 .cc-toppings {
-	font-size: 15px;
+	font-size: 17px;
 	padding-top: 20px;
 	text-transform: capitalize;
 	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .cc-toppings-detail {
 	font-size: 17px;
 	text-transform: capitalize;
 	text-align: center;
 	line-height: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
 
 }
 /* --------- Section's--------------------------------------*/
